@@ -1,0 +1,180 @@
+
+
+body{
+  margin: 0; /* границы поля везде по - нулям */
+  text-align:center; /* текст-выравнивать по центру */
+  font-family: 'Merriweather', serif;
+  color: #40514E;/*цвет фона у тела*/
+}
+/***************text*************************/
+h1{
+  margin-top: 50px;
+  color: #635666;
+  text-shadow: 2px 2px 16px #AC7088;
+  font-family: 'Sacramento', cursive;/*все шрифты размера h1 будут данного стиля*/
+  font-size: 60px;/*размер шрифта*/
+  margin-bottom: 10px;/*уменьшение размера между строчкой*/
+}
+h2 {
+color: #80558C;
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+padding-bottom:10px;
+}
+h3 {
+  color: #80558C;
+  font-family: 'Montserrat', sans-serif;
+}
+/* мой вариант исполнения!!!
+hr {
+border-style: none none dotted none;
+color:#EAF6F6;
+margin-left: 630px;
+margin-right: 630px;
+border-width: 10px;
+height: 2px;
+}
+*/
+hr{
+  border:dotted #EAF6F6 6px;
+  border-bottom:none;
+  width: 4%;
+  
+  
+  margin: 100px auto;/*100px - сверху,снизу и по краям выронить по центру*/
+}
+
+.p {
+  line-height: 2;
+}
+
+.name{
+  font-size: 18px;/*My name*/
+  color: #635666;
+  text-shadow: 2px 2px 16px #AC7088;
+}
+.developer{
+  font-size: 22px;/*Разработчик*/
+  color: #635666;
+  text-shadow: 2px 2px 16px #AC7088;
+}
+
+.footer-link{
+font-family:'Montserrat', sans-serif;
+font-size: 20px;
+color:#11999E;
+margin: 30px;
+text-decoration:none;
+}
+
+.footer-link:hover{
+  color:#EAF6F6;
+}
+
+
+.logo{
+  color:#EAF6F6;
+  margin-top: 45px;
+  font-size: 0.75rem;
+}
+
+/*********************************************cloud,Images*********************/
+.top-container{
+    background-color: #E4F9F5;
+    position: relative; /*позиция - относительная*/
+    padding-top: 100px; /*набивка с верху - 100 пикселей */
+    }
+
+
+.contact-me {
+  padding-bottom:25px;
+  padding-top:5px;
+  text-align: center;
+  width: 40%;
+  margin: 40px auto 60px;/*40px - сверху, по краям авто(центрируем),снизу -60px*/
+  font-size: 20px;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+/*
+  padding-top: 50px;
+  padding-bottom: 50px;
+  как сделал я*/
+  padding: 50px 0 20px;
+  font-family:'Montserrat', sans-serif;
+}
+.topone-cloud {
+  position: absolute;/*первое верхн облако*/
+  left: 740px;
+  top:120px;
+  z-index: 1;
+}
+.toptwo-cloud {
+  position: absolute;/*второе верхн облако*/
+  top: 400px;
+  right: 300px;
+}
+
+.bottom-cloud{
+  position: absolute;/*нижн облако*/
+  left: 200px;
+  top: 190px;
+}
+.I{
+  width: 15%;/*задаем размер фото*/
+  margin: 100px 0;/*набивка сверху и снизу -100px, слева и справа без измненений*/
+}
+.I-am{
+  max-width: 50%;/*максимальная ширина контейнера 50 % */
+  margin: auto;/*размещение элемента по центру сверху,снизу,слева,справа*/
+  font-size: 20px;
+  line-height: 2;
+}
+.skill-row{
+  max-width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;/*выравнивание текста по левому краю*/
+  line-height: 2;/*расстояние между строчками*/
+  font-size: 20px;
+}
+.chillies-img{
+  width: 25%;
+  float: right;;/*обтекание текста*/
+  margin-left: 30px;/*добавляем отступ для текста*/
+}
+.computer-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;/*добавляем отступ для текста*/
+}
+/********************************кнопка*****************************************/
+.btn {
+position: relative;
+top: 30px;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
